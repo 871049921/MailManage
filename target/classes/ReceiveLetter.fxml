@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="apMain" prefHeight="570.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jn_17201312.Controller.ReceiveLetterController">
+    <children>
+        <Button fx:id="btWriteLetter" layoutX="14.0" layoutY="93.0" mnemonicParsing="false" onAction="#onClickWriteLetter" prefHeight="30.0" prefWidth="77.0" text="写信" />
+        <Button fx:id="btReceiveLetter" layoutX="14.0" layoutY="163.0" mnemonicParsing="false" onAction="#onClickReceiveLetter" prefHeight="30.0" prefWidth="77.0" text="收信" />
+        <Label fx:id="labWelcome" layoutX="20.0" layoutY="27.0" prefHeight="20.0" prefWidth="351.0" />
+        <Button fx:id="btLogout" layoutX="680.0" layoutY="32.0" mnemonicParsing="false" onAction="#onClickLogout" prefHeight="30.0" prefWidth="70.0" text="登出" />
+      <VBox fx:id="vbList" layoutX="146.0" layoutY="93.0" prefHeight="355.0" prefWidth="551.0" />
+    </children>
+</AnchorPane>

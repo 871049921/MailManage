@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="570.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jn_17201312.Controller.ServiceReadLetterController">
+    <children>
+        <Button fx:id="btLogout" layoutX="680.0" layoutY="32.0" mnemonicParsing="false" onAction="#onClickLogout" prefHeight="30.0" prefWidth="70.0" text="登出" />
+
+        <Button fx:id="btBack" layoutX="350.0" layoutY="62.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="30.0" prefWidth="204.0" text="返回" />
+
+        <Label fx:id="labWelcome" layoutX="20.0" layoutY="27.0" prefHeight="20.0" prefWidth="351.0" />
+
+        <Label layoutX="140.0" layoutY="170.0" text="主题：">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="taContext" editable="false" layoutX="212.0" layoutY="211.0" prefHeight="314.0" prefWidth="548.0" promptText="请输入正文" text="123" />
+        <Label layoutX="116.0" layoutY="92.0" text="寄件人：">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="140.0" layoutY="211.0" text="正文：">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbSender" layoutX="212.0" layoutY="92.0" text="111@qq.com">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbSubject" layoutX="213.0" layoutY="170.0" text="test">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="140.0" layoutY="131.0" text="时间：">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbTime" layoutX="213.0" layoutY="131.0" text="123123">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+      <Button fx:id="btSendToExtranet" layoutX="101.0" layoutY="495.0" mnemonicParsing="false" onAction="#onClickSendToExtranet" text="发送至外网" />
+    </children>
+
+</AnchorPane>

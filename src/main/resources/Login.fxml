@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="263.0" prefWidth="537.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jn_17201312.Controller.LoginController">
+   <children>
+      <Button fx:id="btLogin" layoutX="106.0" layoutY="169.0" mnemonicParsing="false" onAction="#onClickLogin" prefHeight="44.0" prefWidth="325.0" text="登录" />
+      <TextField fx:id="tfMail" layoutX="106.0" layoutY="75.0" prefHeight="30.0" prefWidth="325.0" promptText="请输入邮箱" />
+      <TextField fx:id="tfPassword" layoutX="106.0" layoutY="123.0" prefHeight="30.0" prefWidth="325.0" promptText="请输入密码" />
+      <TextField fx:id="tfNotice" editable="false" layoutX="106.0" layoutY="14.0" prefHeight="44.0" prefWidth="325.0" promptText="请输入邮箱" text="                            登录失败！" visible="false" />
+   </children>
+</AnchorPane>

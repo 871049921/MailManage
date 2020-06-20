@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="570.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jn_17201312.Controller.MainController">
+   <children>
+       <Label layoutX="124.0" layoutY="168.0" text="主题">收件人</Label>
+       <TextArea fx:id="taContext" editable="true" layoutX="201.0" layoutY="236.0" prefHeight="189.0" prefWidth="548.0" promptText="请输入正文" />
+      <Button fx:id="btSend" layoutX="201.0" layoutY="460.0" mnemonicParsing="false" onAction="#onClickSendLetter" prefHeight="30.0" prefWidth="128.0" text="发送" />
+      <Label layoutX="116.0" layoutY="98.0" text="收件人" />
+      <TextField fx:id="tfReceiver" layoutX="201.0" layoutY="93.0" prefHeight="30.0" prefWidth="548.0" promptText="请输入收件人id" />
+      <TextField fx:id="tfSubject" layoutX="201.0" layoutY="163.0" prefHeight="30.0" prefWidth="548.0" promptText="请输入主题" />
+      <Label layoutX="124.0" layoutY="236.0" text="正文" />
+      <Button fx:id="btWriteLetter" layoutX="14.0" layoutY="93.0" mnemonicParsing="false" onAction="#onClickWriteLetter" prefHeight="30.0" prefWidth="77.0" text="写信" />
+      <Button fx:id="btReceiveLetter" layoutX="14.0" layoutY="163.0" mnemonicParsing="false" onAction="#onClickReceiveLetter" prefHeight="30.0" prefWidth="77.0" text="收信" />
+      <Label fx:id="labWelcome" layoutX="20.0" layoutY="27.0" prefHeight="20.0" prefWidth="351.0" />
+      <Button fx:id="btLogout" layoutX="680.0" layoutY="32.0" mnemonicParsing="false" onAction="#onClickLogout" prefHeight="30.0" prefWidth="70.0" text="登出" />
+   </children>
+</AnchorPane>
